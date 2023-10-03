@@ -342,7 +342,7 @@ def ffb(ids,names,passlist):
                         en = random.choice(['en_US','en_GB'])
                         cph = random.choice(['CPH1979','CPH1983','CPH1987','CPH2005','CPH2009','CPH2015','CPH2059','CPH2061','CPH2065','CPH2069','CPH2071','CPH2073','CPH2077','CPH2091','CPH2095','CPH2099','CPH2137','CPH2139','CPH2145','CPH2161','CPH2185','CPH2201','CPH2209','CPH1801','CPH1803','CPH1805','CPH1809','CPH1827','CPH1837','CPH1851','CPH1853'])
                         network = random.choice(['Zong','null','Marshmallow','Telekom China'])
-                        ua  = 'Davik/2.1.0 (Linux; U; Android 11.0.0; Memo Pro LTE L600 Build/TP1A.223805.558) [FBAN/FB4A;FBAV/111.0.0.11957;FBBV/933085954;FBDM/{density=3.0,width=1080,height=1920};FBLC/en_US;FBCR/Robi;FBMF/POSH;FBBD/POSH;FBPN/com.facebook.katana;FBDV/Memo Pro LTE L600;FBSV/5.0;nullFBCA/armeabi-v7a:armeabi;]'
+                        ua  = '[FBAN/FB4A;FBAV/371.0.0.24.109;FBBV/377639763;FBDM/{density=2.55,width=1080,height=2159};FBLC/en_GB;FBRV/0;FBCR/GLOBE;FBMF/HUAWEI;FBBD/HUAWEI;FBPN/com.facebook.katana;FBDV/CLT-L29;FBSV/10;FBBK/1;FBOP/1;FBCA/arm64-v8a:;]
                         random_seed = random.Random()
                         adid = str(''.join(random_seed.choices(string.hexdigits, k=16)))
                         device_id = str(uuid.uuid4())
